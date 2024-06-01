@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>BG-Color-Change</title>
+        
+        <style>
+
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                width: 100%;
+                height: 100vh;
+                background-color: #110815;
+                color: #efefef;
+                text-align: center;
+            }
+
+            .first {
+                margin: 15px 0px 20px 0px;
+            }
+
+            .btn {
+                padding: 8px;
+                color: #110815;
+                border-radius: 10px;
+                font-size: 15px;
+                background-color: #efefef;
+                cursor: pointer;
+                transition: all 0.3s ease;
+            }
+
+            .btn:hover {
+                background-image: linear-gradient(#110815, #cdf1e3);
+                color: #efefef;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1>Randonbackground Color Changer</h1>
+
+        <main>
+
+            <section class="first">
+
+                <p>Hex Code: <span id="hex-code">#110815</span></p>
+
+            </section>
+
+            <button class="btn" id="btn">Change background Color</button>
+
+        </main>
+
+        <script src="Color.js">
+
+            
+        </script>
+
+    </body>
+
+</html>
